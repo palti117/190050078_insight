@@ -1,0 +1,247 @@
+body {
+  font-size: 16px;
+  color: blue;
+  background-color: lightyellow;
+  font-family: sans-serif;
+}
+#header-nav {
+  background-color: lightblue;
+  border-radius: 0;
+  border: 0;
+
+}
+#header-nav2{
+  background-color: lightblue;
+  border-radius: 0;
+  border: 0;
+  padding-bottom:20px;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#covid{
+  clear:both; 
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: white;
+}
+#nav-list a h3 {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  padding-top: 0px;
+}
+h2{
+  margin-bottom: 50px;
+}
+.color{
+  background: lightblue;
+  margin-left: -50px;
+  margin-right:-50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.one,.a,.b,.c,.d {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  background-color: black;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+.mybtn:hover{
+  color:black;
+  background-color: grey;
+  border:none;
+}
+.mybtn{
+  text-align:left;
+  background: black;
+  height: 40px;
+  font-size: 18px;
+  border:none; 
+}
+.one:hover, .two:hover, .three:hover, .four:hover,#a:hover,#b:hover,#c:hover,#d:hover{
+  background-color:white;
+  color:blue;
+  box-shadow: 0 1px 5px 1px #cccccc;
+  text-decoration: none;
+}
+
+.logo{
+  padding-top : 25px ;
+  height:200px;
+}
+.circle{
+  border-radius:50%;
+}
+.show{
+  margin-top: 150px;
+}
+.height2{
+  height:300px;
+  float: left;
+  margin-bottom: 60px;
+  padding-top:0px;
+  margin-top:0px;
+}
+.height{
+  height: 400px;
+  margin-bottom:20px;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../media2.jpg");
+
+  /* Set a specific height */
+  height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.one:hover{
+  background-color:black;
+}
+.text{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: orange;
+  opacity: .8;
+}
+.para{
+font-size: 20px;
+text-transform: lowercase;
+}
+.panel-footer{
+  background-color: grey;
+  margin-bottom: 50px;
+  margin-left:-150px;
+  margin-right: -150px;
+}
+.panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+
+  }
+  .space{
+    padding-bottom: 10px;
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  .about{
+    color: darkblue;
+    font-size:1.1em;
+  }
+  .about:hover{
+    color:black;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  .container{
+    position: relative;
+  }
+
+ .aboutus .container .med {
+
+  width:100%;
+}
+.media{
+  width:100%;
+  height: 400px;
+}
+.size2{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 2em;
+  font-weight: bold;
+   font-family: "Times New Roman", Times, serif;
+   color:#fff007;
+   background-color:black;
+   opacity: 0.7;
+   padding-right: 0px;
+   padding-left: 20px;
+   margin-left: -88px;
+   width: 50%;
+   margin-left: 30px;
+}
+.size{
+  padding-bottom: 10px;
+  padding-top:10px;
+  font-size: 2em;
+  font-weight: bold;
+   font-family: "Times New Roman", Times, serif;
+
+ }
+
+#team{
+  margin-top: 50px;
+}
+.set{
+  background-color:lightgrey;
+  margin-bottom:0px;
+}
+ 
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a h3 { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+
+
